@@ -1,0 +1,33 @@
+body{
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header, footer{
+    background-color: rgba(240, 224, 79, 0.486);
+    border: 3px rgba(224, 72, 21, 0.486) solid;
+}
+.renato{
+    color: rgba(68, 7, 7, 0.486);
+  } 
+  #photo {
+    box-shadow: 0 0 2px 1px #000000;    
+}
+.hobbies {
+    list-style-type: square;
+}
+.hobbies li:nth-child(odd) {
+    background-color: rgb(212, 131, 26);
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li a{
+    text-decoration: none;
+    background-color: rgb(232, 92, 17);
+    border: 3px rgb(52, 17, 0) solid;
+}
+.navigation li a:hover{
+    background-color: #f0f0f0;
+}
